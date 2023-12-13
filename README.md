@@ -10,8 +10,8 @@ Welcome to my portfolio! This repository showcases my work, projects, and skills
 
 - [About Me](https://001mayur.github.io/#about)
 - [projects](https://001mayur.github.io/#projects)
-- [Skills](#skills)](https://001mayur.github.io/#skills)
-- [Con)tact](#contact](https://001mayur.github.io/#contact)
+- [Skills](https://001mayur.github.io/#skills)
+- [contact](https://001mayur.github.io/#contact)
 
 
 ## Contact
