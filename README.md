@@ -1,5 +1,22 @@
-# 001Mayur.github.io
-my_portfolio
-![Alt text](assets/imgs/homepage.png)
-![Alt text](assets/imgs/about.png)
-![Alt text](assets/imgs/project.png)
+# My Portfolio
+
+Welcome to my portfolio! This repository showcases my work, projects, and skills in the field of Artificial Intelligence .
+
+<p align="center">
+  <img src="assets/images/home-page.png" alt="Portfolio Screenshot">
+</p>
+
+## Table of Contents
+- [About Me](#about-me)
+- [Projects](#projects)
+- [Skills](#skills)
+- [Contact](#contact)
+
+
+## Contact
+- **Email:** mnphatangare8@gmail.com
+- **LinkedIn:** [LinkedIn Profile](https://www.linkedin.com/in/mayur-phatangare-ba874821b/)
+
+Feel free to reach out if you have any questions, collaboration opportunities, or just want to connect!
+
+Thank you for visiting my portfolio!
