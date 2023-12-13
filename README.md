@@ -3,7 +3,7 @@
 Welcome to my portfolio! This repository showcases my work, projects, and skills in the field of Artificial Intelligence .
 
 <p align="center">
-  <img src="assets/images/home-page.png" alt="Portfolio Screenshot">
+  <img src="assets/images/screenshot-127.0.0.1_5500-2023.12.14-01_32_05.png" alt="Portfolio Screenshot">
 </p>
 
 ## Table of Contents

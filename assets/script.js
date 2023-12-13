@@ -55,7 +55,6 @@ function typeText(element, text) {
     
 
 
-
 // Slider (all Slides in a container)
 const slider = document.querySelector(".slider");
 // All trails
@@ -67,20 +66,6 @@ let value = 0;
 let trailValue = 0;
 // interval (Duration)
 let interval = 4000;
-
-// Throttle function
-const throttle = (func, limit) => {
-    let inThrottle;
-    return function () {
-        const args = arguments;
-        const context = this;
-        if (!inThrottle) {
-            func.apply(context, args);
-            inThrottle = true;
-            setTimeout(() => inThrottle = false, limit);
-        }
-    };
-};
 
 // Function to slide forward
 const slide = (condition) => {
@@ -123,11 +108,14 @@ const move = (S, T) => {
     // Add active class to the current trail
     trail[T].classList.add("active");
 };
+
+// GSAP Animation
 const tl = gsap.timeline({ defaults: { duration: 0.8, ease: "power2.inOut" } });
-tl.from(".bg", { x: "-100%", opacity: 0 })
-    .from(".animation-container p", { opacity: 0 }, "-=0.3")
-    .from(".animation-container h1", { opacity: 0, y: "30px" }, "-=0.3")
-    .from(".animation-container button", { opacity: 0, y: "-40px" }, "-=0.8");
+
+tl.from(".slider .box .details h1", { opacity: 0, y: "30px" })
+  .from(".slider .box .details p", { opacity: 0 }, "-=0.3")
+  .from(".slider .box .details .button-link", { opacity: 0, y: "-40px" }, "-=0.8");
+
 
 // Function to restart animation
 const animate = () => tl.restart();
@@ -225,6 +213,7 @@ const touchSlide = (() => {
     // Call mobile on touch end
     slider.addEventListener("touchend", mobile);
 })();
+
 
 // Pause on Hover
 slider.addEventListener("mouseenter", () => clearInterval(start));

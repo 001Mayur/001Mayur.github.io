@@ -249,7 +249,7 @@ nav.active a {
 
 @media only screen and (max-width: 650px) {
     .container {
-      border-radius: 5rem;
+      border-radius: 0;
     }
   }
 
@@ -269,6 +269,11 @@ nav.active a {
     transition: all 0.25s ease-in;
     transform: translateX(0);
 }
+@media only screen and (max-width: 1000px) {
+    .slider {
+      height: 100vh;
+    }
+  }
 
 .slider .box {
     height: 100%;
@@ -352,11 +357,16 @@ nav.active a {
 }
 
 .slider .box .details h1 {
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     font-weight: bold;
-    margin-top: 7.5rem;
+    margin-top: 5rem;
     color: #ffffff;
+    animation: moveUp 0.5s ease-in-out;
+    transform-origin: bottom;
+    display: inline-block;
+    /* margin-top: 0; */
 }
+
 
 .slider .box .details p {
     display: inline-block;
@@ -380,17 +390,23 @@ nav.active a {
     border: none;
     cursor: pointer;
     text-decoration: none;
-    transition: all 0.3s ease;
+    animation: moveUp 0.5s ease-in-out;
+    transform-origin: bottom;
+    display: inline-block;
+    margin-top: 0;
+
 }
+.slider .box .details h1,
 .slider .box .details .button-link:hover {
     opacity: 0.8;
-    color: rgb(0, 0, 0);
 }
 
+.slider .box .details h1,
 .slider .box .details .button-link:focus {
     outline: none;
     border: none;
 }
+
 
 .slider .box1 {
     background-color: #0b1d51; /* Adjusted color */
@@ -664,7 +680,7 @@ nav.active a {
 }
 
 .trail div:hover {
-    opacity: 0.7;
+    opacity: 0.6;
 }
 
 @media only screen and (max-width: 650px) {
