@@ -191,8 +191,8 @@ nav.active a {
 }
 .about-p {
     font-size: 1.2rem;
-    line-height: 1.6;
-    /* margin-bottom: 30px; */
+    line-height: 1.7;
+    margin: 10px;
     text-align: center;
     position: relative;
 }
@@ -352,15 +352,15 @@ nav.active a {
 }
 
 .slider .box .details h1 {
-    font-size: 2.5rem;
-    font-weight: bolder;
-    margin-bottom: 0.5rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 7.5rem;
     color: #ffffff;
 }
 
 .slider .box .details p {
     display: inline-block;
-    font-size: 1.3rem;
+    font-size: 1rem;
     color: #B5B4B4;
     margin-bottom: 2rem;
     margin-right: 5rem;
@@ -394,8 +394,6 @@ nav.active a {
 
 .slider .box1 {
     background-color: #0b1d51; /* Adjusted color */
-    /* position: relative; */
-    /* transform: skewX(-10deg); */
 }
 
 .slider .box1 .illustration .inner {
@@ -426,7 +424,7 @@ nav.active a {
 }
 
 .slider .box2 {
-    background-color: rgb(4, 83, 122);
+    background-color: #04537a;
 }
 
 .slider .box2 .illustration .inner {
@@ -453,7 +451,7 @@ nav.active a {
 }
 
 .slider .box2 .button-link {
-    background-color: #00e1ff;
+    background-color: #008ffd;
 }
 
 .slider .box3 {
@@ -483,7 +481,7 @@ nav.active a {
     border-radius: 3rem;
 }
 .slider .box3 .button-link {
-    background-color: rgb(0, 86, 107); /* Light gray color */
+    background-color: #0012f6; /* Light gray color */
 }
 
 .slider .box4 {
@@ -652,8 +650,8 @@ nav.active a {
 
 @media only screen and (max-width: 650px) {
     .trail {
-        width: 90%;
-        bottom: 13%;
+        width: 50%;
+        bottom: 2.1%;
     }
 }
 
@@ -776,11 +774,11 @@ nav.active a {
 }
   
 .skill-text {
-    position: absolute;
     transform: translate(-50%, -50%);
     color: #ffffff;
     z-index: 1;
     width: 100%;
+    font-size: 0.78rem;
 }
   
 .percentage{
@@ -803,7 +801,6 @@ nav.active a {
 
 
 .contact-section {
-    background-color: #f8f9fa;
     padding: 4em 0;
     text-align: center;
   }
@@ -827,13 +824,13 @@ nav.active a {
 }
   
 .contact-links a {
-    text-decoration: none;
     color: #000000;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-decoration: underline;
     font-weight: bold;
+    margin: 8px;
 }
   
 .contact-links img {
