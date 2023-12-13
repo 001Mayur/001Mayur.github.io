@@ -7,10 +7,11 @@ Welcome to my portfolio! This repository showcases my work, projects, and skills
 </p>
 
 ## Table of Contents
-- [About Me](#about-me)
-- [Projects](#projects)
-- [Skills](#skills)
-- [Contact](#contact)
+
+- [About Me](https://001mayur.github.io/#about)
+- [projects](https://001mayur.github.io/#projects)
+- [Skills](#skills)](https://001mayur.github.io/#skills)
+- [Con)tact](#contact](https://001mayur.github.io/#contact)
 
 
 ## Contact
