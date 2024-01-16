@@ -249,7 +249,7 @@ nav.active a {
 
 @media only screen and (max-width: 650px) {
     .container {
-      border-radius: 0;
+      border-radius: 5rem;
     }
   }
 
@@ -269,11 +269,6 @@ nav.active a {
     transition: all 0.25s ease-in;
     transform: translateX(0);
 }
-@media only screen and (max-width: 1000px) {
-    .slider {
-      height: 100vh;
-    }
-  }
 
 .slider .box {
     height: 100%;
