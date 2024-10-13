@@ -893,7 +893,7 @@ a, a:hover {
 }
 
 .skills-categories ul {
-    list-style: none;
+    list-style: circle;
     padding: 0;
 }
 
